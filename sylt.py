@@ -88,7 +88,7 @@ def collect_homonym() -> typing.List[Homonym]:
 def grouped_homonym():
     hs = collect_homonym()
     keyfunc = lambda h: len(h.defs)
-    hs = sorted(hs, key=keyfunc)
+    hs = sorted(hs, key=keyfunc, reverse=True)
     return itertools.groupby(hs, keyfunc)
 
 
@@ -118,9 +118,12 @@ def handle_ls(args):
 
 
 def handle_stat(args):
+    tot = 0
     for count, hss in grouped_homonym():
         hss = list(hss)
-        print(f'{count} has {len(hss)} words')
+        c = len(hss)
+        tot += c
+        print(f'{count} has {c} words (total: {tot})')
     print()
 
 

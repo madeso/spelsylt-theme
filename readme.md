@@ -16,6 +16,18 @@ spel
 - vinda, vinsch
 ```
 
+```sh
+# display all words
+./sylt.py stat
+11 has 1 words (total: 1)
+7 has 4 words (total: 5)
+6 has 2 words (total: 7)
+5 has 9 words (total: 16)
+4 has 14 words (total: 30)
+3 has 64 words (total: 94)
+2 has 135 words (total: 229)
+```
+
 
 ```sh
 ./sylt.py -h           
