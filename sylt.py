@@ -123,7 +123,7 @@ def handle_stat(args):
         hss = list(hss)
         c = len(hss)
         tot += c
-        print(f'{count} has {c} words (total: {tot})')
+        print(f'{c} words has {count} meanings (total words: {tot})')
     print()
 
 

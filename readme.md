@@ -19,13 +19,13 @@ spel
 ```sh
 # display all words
 ./sylt.py stat
-11 has 1 words (total: 1)
-7 has 4 words (total: 5)
-6 has 2 words (total: 7)
-5 has 9 words (total: 16)
-4 has 14 words (total: 30)
-3 has 64 words (total: 94)
-2 has 135 words (total: 229)
+1 words has 11 meanings (total words: 1)
+4 words has 7 meanings (total words: 5)
+2 words has 6 meanings (total words: 7)
+9 words has 5 meanings (total words: 16)
+14 words has 4 meanings (total words: 30)
+64 words has 3 meanings (total words: 94)
+135 words has 2 meanings (total words: 229)
 ```
 
 
