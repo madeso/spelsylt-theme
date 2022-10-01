@@ -13,6 +13,11 @@ from bs4 import BeautifulSoup
 
 ###################################################################################################
 
+# https://letsmakeagame.net/game-jam-theme-generator/
+# https://homonym.se/homonymer
+
+###################################################################################################
+
 
 def download_url(link: str, status: str) -> str:
     status_text = '' if len(status)==0 else '({})'.format(status)
